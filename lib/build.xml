@@ -11,7 +11,7 @@
 	
 	 <target name="deploy">
 	 <sf:deploy username="${sf.username}" 
-	password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="KaiserPermananteCIDemo" 
+	password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" 
 	rollbackOnError="true" checkOnly="false" />
       
     </target> 
